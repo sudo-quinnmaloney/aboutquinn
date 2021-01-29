@@ -18,8 +18,8 @@ body {
 }
 
 /* Each state */
-a:visited { text-decoration: none; color:#000000; }
-.navBtn:hover { text-decoration: none; color:#EE816A; }
+a:visited, a:active { text-decoration: none; color:#000000; }
+.navBtn:hover { text-decoration: underline overline; color:#EE816A; }
 
 ul {
   padding: 0;
