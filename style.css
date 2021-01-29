@@ -17,15 +17,10 @@ body {
   z-index: 999;
 }
 
-a { color:red } /* Globally */
-
 /* Each state */
-/*
-a:visited { text-decoration: none; color:#000; }
-a:hover { text-decoration: none; color:#111; }
-a:focus { text-decoration: none; color:#000; }
-a:hover, a:active { text-decoration: none; color:#000 }
-*/
+.navBtn:visited { text-decoration: none; color:#000; }
+.navBtn:hover { text-decoration: none; color:#111; }
+
 ul {
   padding: 0;
   margin: 0;
