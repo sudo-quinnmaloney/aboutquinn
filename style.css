@@ -18,8 +18,8 @@ body {
 }
 
 /* Each state */
-.navBtn:visited { text-decoration: none; color:#000; }
-.navBtn:hover { text-decoration: none; color:#111; }
+a:visited { text-decoration: none; color:#000000; }
+.navBtn:hover { text-decoration: none; color:#EE816A; }
 
 ul {
   padding: 0;
