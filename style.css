@@ -18,7 +18,7 @@ body {
   z-index: 999;
 }
 
-.intro { margin_top = 200px;}
+.intro { margin_top = 2000px;}
 
 /* Each state */
 a { text-decoration: none; color:#A0B8D5; }
