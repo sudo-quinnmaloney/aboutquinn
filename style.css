@@ -23,7 +23,7 @@ a { text-decoration: none; color:#A0B8D5; }
 .navBtn {text-decoration: none; color:#000000;}
 .navBtn:hover {color:#EE816A;}
 
-.homeBtn {text-decoration: none; color:#FFFFFF;}
+.homeBtn {text-decoration: none; color:white;}
 
 ul {
   padding: 0;
