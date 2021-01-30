@@ -18,7 +18,7 @@ body {
 }
 
 /* Each state */
-a,.navBtn { text-decoration: none; color:#000000; }
+a,.navBtn:visited { text-decoration: none; color:#000000; }
 .navBtn:hover { text-decoration: underline; color:#EE816A; }
 
 ul {
