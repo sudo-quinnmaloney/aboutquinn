@@ -20,7 +20,8 @@ body {
 
 /* Each state */
 a { text-decoration: none; color:#A0B8D5; }
-.navBtn:hover { text-decoration: none; color:#EE816A; }
+.navBtn {text-decoration: none;}
+.navBtn:hover {color:#EE816A;}
 
 ul {
   padding: 0;
