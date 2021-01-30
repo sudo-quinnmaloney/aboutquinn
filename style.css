@@ -18,6 +18,10 @@ body {
   z-index: 999;
 }
 
+.intro {
+  top: 50px;
+}
+
 /* Each state */
 a { text-decoration: none; color:#A0B8D5; }
 .navBtn {text-decoration: none; color:#000000;}
