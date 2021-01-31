@@ -53,6 +53,12 @@ li {
   text-transform: uppercase;
 }
 
+h1 {
+  color: #A0B8D5;
+  font-family: 'Oxygen', sans-serif;
+  text-transform: uppercase;
+}
+
 .active {
   color: #88CCF1;
 }
