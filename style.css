@@ -59,6 +59,10 @@ h1 {
   text-transform: uppercase;
 }
 
+.homeBtn {
+  color: white;
+}
+  
 .active {
   color: #88CCF1;
 }
