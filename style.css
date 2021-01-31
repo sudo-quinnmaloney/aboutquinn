@@ -10,6 +10,11 @@ body {
   }
 }
 
+/* Wrapping text around images */
+.floated {
+    float: left;
+}
+
 /* Navigation */
 
 .navigation {
