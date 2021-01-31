@@ -4,9 +4,9 @@ body {
   padding-top: 130px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
   body {
-    padding-top: 230px;
+    padding-top: 220px;
   }
 }
 
