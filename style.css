@@ -57,10 +57,11 @@ h1 {
   color: #A0B8D5;
   font-family: 'Oxygen', sans-serif;
   text-transform: uppercase;
-  margin: 30px;
+  margin: 70px;
 }
 
 .homeBtnText {
+  margin: 0px;
   color: white;
 }
   
