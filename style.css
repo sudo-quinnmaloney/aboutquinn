@@ -23,7 +23,8 @@ h3 { padding-left: 132px; }
 
 p { font-family: 'Oxygen', sans-serif; padding-right: 132px;}
 img, iframe, p {padding-left: 132px;}
-iframe { display: block; margin-right:10px; margin-bottom:10px; margin-top:10px; margin-left:10px;}
+iframe,img { margin-right:10px; margin-bottom:10px; margin-top:10px; margin-left:10px;}
+iframe { display: block; }
 
 /* Lists (navbar) */
 ul {
