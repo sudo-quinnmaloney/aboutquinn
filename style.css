@@ -56,7 +56,7 @@ li {
 
 .navBtn {text-decoration: none; color:#000000;}
 .navBtn:hover {color:#EE816A;}
-
+.navBtnText {padding-left:0px;}
 .homeBtn {text-decoration: none; color:white;}
 
 .homeBtnText {
