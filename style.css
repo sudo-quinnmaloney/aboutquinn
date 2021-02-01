@@ -24,6 +24,7 @@ body {
   background-color: #A0B8D5;
   overflow: auto;
   padding: 18px 50px;
+  padding-left: 0px;
   position: fixed;
   top: 0;
   width: 100%;
