@@ -23,6 +23,7 @@ h3 { padding-left: 132px; }
 
 p { font-family: 'Oxygen', sans-serif; padding-right: 132px;}
 img, iframe, p {padding-left: 132px;}
+iframe { display: block; }
 
 /* Lists (navbar) */
 ul {
