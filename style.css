@@ -23,7 +23,6 @@ h3 { padding-left: 132px; }
 
 p { font-family: 'Oxygen', sans-serif; }
 p {padding-left: 132px; padding-right: 132px;}
-iframe,img { margin-right:10px; margin-left:10px;}
 iframe { border:none; }
 
 /* Lists (navbar) */
@@ -75,11 +74,13 @@ li {
 .floated_left {
   float: left;
   padding-left:132px;
+  margin-right:10px;
 }
 
 .floated_right {
   float: right;
   padding-right:132px;
+  margin-left:10px;
 }
 
 /* Table */
