@@ -103,7 +103,7 @@ li {
 }
 
 /* Wrapping text around images */
-.floated_left {
+.floated_left, .song_title {
   float: left;
   padding-left:132px;
   margin-right:10px;
