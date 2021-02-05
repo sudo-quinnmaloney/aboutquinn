@@ -58,7 +58,6 @@ li {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  display: inline-block;
   cursor: pointer;
   width: 100%;
   border: none;
@@ -75,7 +74,7 @@ li {
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
+  font-size: 20px;
   color: black;
   margin-left: 132px;
 }
