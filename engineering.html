@@ -20,9 +20,27 @@
     <div class = "intro" id = "eng_intro">
       <p>Engineering page</p>
     </div>
-    <div class = "body" id = "eng_body">
-      <h2>Academics</h2>
+        
+    <button type="button" class="collapsible"><h2 class="sub_heading">Academics</h2></button>
+    <div class ="content" id="academics">
       <p>UCLA yada yada</p>
     </div>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
