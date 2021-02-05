@@ -23,7 +23,7 @@ h3 { padding-left: 132px; }
 
 p { font-family: 'Oxygen', sans-serif; }
 p {padding-left: 132px; padding-right: 132px;}
-iframe { border:none; }
+iframe { border:none; padding-bottom: 10px; }
 
 /* Lists (navbar) */
 ul {
@@ -66,22 +66,27 @@ li {
 }
 
 .content {
-  background-color: white;
+  background-color: #EEE;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
+.collapsible:hover, .collapsible:active {
+  color: black;
+}
+/*
 .collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795';
   font-size: 20px;
   color: black;
   margin-left: 132px;
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";
 }
+*/
 
 .navBtn {text-decoration: none; color:#000000;}
 .navBtn:hover {color:#EE816A;}
