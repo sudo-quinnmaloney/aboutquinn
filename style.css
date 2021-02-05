@@ -10,7 +10,7 @@ body {
   }
 }
 
-a { text-decoration: none; color:#EE816A; }
+a { text-decoration: none; color:#A0B8D5; }
 
 /* Heading styles */
 h1,h2,h3 {
@@ -75,18 +75,6 @@ li {
 .song_title:hover {
   color: #A0B8D5;
 }
-/*
-.collapsible:after {
-  content: '\02795';
-  font-size: 20px;
-  color: black;
-  margin-left: 132px;
-}
-
-.active:after {
-  content: "\2796";
-}
-*/
 
 .navBtn {text-decoration: none; color:#000000;}
 .navBtn:hover {color:#EE816A;}
