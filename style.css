@@ -72,7 +72,7 @@ li {
   transition: max-height 0.2s ease-out;
 }
 
-.collapsible:hover, .collapsible:active {
+.song_title:hover {
   color: black;
 }
 /*
