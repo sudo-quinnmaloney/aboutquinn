@@ -58,11 +58,7 @@ li {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  /*
-  background-color: #eee;
-  color: #444;
-  padding: 18px;
-  */
+  display: inline-block;
   cursor: pointer;
   width: 100%;
   border: none;
@@ -82,7 +78,6 @@ li {
   font-size: 13px;
   color: black;
   margin-left: 132px;
-  padding-top: 5px;
 }
 
 .active:after {
