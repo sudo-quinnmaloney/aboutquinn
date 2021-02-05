@@ -46,7 +46,6 @@ li {
 /* Class settings */
 .navigation {
   box-sizing: border-box;
-  /*background-color: #3587A4;*/
   background-color: #A0B8D5;
   overflow: auto;
   padding: 18px 50px;
@@ -68,13 +67,21 @@ li {
 .dropdown {
   border: none;
   outline: none;
+  background-color: #A0B8D5;
 }
 
 .dropdown_menu {
   max-height: 0;
+  padding: 0;
+  margin: 0;
   overflow:hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.dropdown_li {
+  color: #FFF;
+}
+
 .content {
   background-color: #EEE;
   max-height: 0;
