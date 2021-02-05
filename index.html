@@ -23,9 +23,27 @@
     </div>
     <p>Welcome to my website, which I'm building to use as a sort of journal for my friends, family, and future self; and as encouragement to develop basic web-development skills overtime.<br></p>
   </div>
-  <div class = "body" id = "home_body">
-    <h2>Family</h2>
-    <p>Love my fam filler text for sure for sure</p>
+  
+  <button type="button" class="collapsible"><h2 class="sub_heading">Family</h2></button>
+  <div class ="content" id="family">
+    <p>Love my fam filler text for sure for sure.</p>
   </div>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
 </body>
 </html>
