@@ -20,12 +20,30 @@
     <div class = "intro" id = "fitness_intro">
       <p>This is da fitness page</p>
     </div>
-    <div id = "fitness_info">
-      <h2>Calisthenics</h2>
+    
+    <button type="button" class="collapsible"><h2 class="sub_heading">Calisthenics</h2></button>
+    <div class ="content" id="family">
       <div class = "floated_left">
         <iframe src="https://drive.google.com/file/d/1WTLC7coQTvO9mhL6Scgq76Vr8ifV6aDt/preview" width="240" height="320">Video load failed. It was an epic +10 lb weighted handstand push-up.</iframe>
       </div>
       <p>[text text blah blah]</p>
     </div>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
