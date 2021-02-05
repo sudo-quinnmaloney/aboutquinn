@@ -72,7 +72,7 @@ li {
   transition: max-height 0.2s ease-out;
 }
 
-.song_title:hover {
+.sub_heading:hover {
   color: #A0B8D5;
 }
 
@@ -91,7 +91,7 @@ li {
 }
 
 /* Wrapping text around images */
-.floated_left, .song_title {
+.floated_left, .sub_heading {
   float: left;
   padding-left:132px;
   margin-right:10px;
