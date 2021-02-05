@@ -71,7 +71,6 @@ li {
 }
 
 .content {
-  padding: 0 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
@@ -81,18 +80,13 @@ li {
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
-  color: white;
+  color: black;
   float: right;
   margin-right: 132px;
 }
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #eee;
 }
 
 .navBtn {text-decoration: none; color:#000000;}
