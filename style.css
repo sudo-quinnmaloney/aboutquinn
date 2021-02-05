@@ -18,8 +18,8 @@ h1,h2,h3 {
   text-transform: uppercase;
 }
 h1 { color: #A0B8D5; padding-left: 68px;}
-h2 { color: #EE816A; padding-left: 100px;}
-h3 { padding-left: 132px; }
+h2 { color: #EE816A; padding-left: 132px;}
+h3 { padding-left: 164px; }
 
 p { font-family: 'Oxygen', sans-serif; }
 p {padding-left: 132px; padding-right: 132px;}
