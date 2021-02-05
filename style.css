@@ -81,8 +81,7 @@ li {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: black;
-  float: right;
-  margin-right: 132px;
+  margin-left: 132px;
 }
 
 .active:after {
