@@ -88,6 +88,11 @@ li {
   color: #88CCF1;
 }
 
+/* Photo array */
+.panel {
+  padding-left:132px;
+}
+
 /* Wrapping text around images */
 .floated_left, .sub_heading {
   float: left;
