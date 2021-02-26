@@ -45,6 +45,7 @@ li {
 /* Photo array */
 .panel {
   padding-left:132px;
+  padding-right:132px;
 }
 
 .panel_row {
