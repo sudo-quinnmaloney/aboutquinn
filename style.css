@@ -54,8 +54,8 @@ li {
 
 /* Create four equal columns that sits next to each other */
 .panel_column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 20%;
+  max-width: 20%;
   padding: 0 4px;
 }
 
@@ -128,11 +128,6 @@ li {
   color: #88CCF1;
 }
 
-.imgarray {
-  width: 10px;
-  height: 10px;
-  border: 2px solid black;
-}
 /* Wrapping text around images */
 .floated_left, .sub_heading {
   float: left;
