@@ -42,6 +42,15 @@ li {
   text-transform: uppercase;
 }
 
+/* Photo array */
+.panel {
+  padding-left:132px;
+}
+
+.panel_item {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+}
 /* Class settings */
 .navigation {
   box-sizing: border-box;
@@ -86,11 +95,6 @@ li {
 
 .active {
   color: #88CCF1;
-}
-
-/* Photo array */
-.panel {
-  padding-left:132px;
 }
 
 /* Wrapping text around images */
