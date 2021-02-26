@@ -97,6 +97,11 @@ li {
   color: #88CCF1;
 }
 
+.imgarray {
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+}
 /* Wrapping text around images */
 .floated_left, .sub_heading {
   float: left;
