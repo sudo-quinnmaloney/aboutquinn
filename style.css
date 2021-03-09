@@ -19,7 +19,7 @@ h1,h2,h3 {
 }
 h1 { color: #A0B8D5; padding-left: 68px;}
 h2 { color: #EE816A; padding-left: 132px;}
-h3 { padding-left: 164px; vertical-align:middle;}
+h3 { padding-left: 164px; vertical-align:center;}
 
 p { font-family: 'Oxygen', sans-serif; padding-left: 132px; padding-right: 132px; font-size: 14px;}
 iframe { border:none; padding-bottom: 10px; }
@@ -127,7 +127,7 @@ li {
   float: left;
   padding-left: 132px;
   margin-right: 20px;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 .sub_heading:hover {
