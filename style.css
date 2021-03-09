@@ -125,10 +125,9 @@ li {
   vertical-align: sub;
 }
 
-/*
-#background {
+
+#background:after {
   content: "\2796";
-  overflow: visible;
 }
 */
 
