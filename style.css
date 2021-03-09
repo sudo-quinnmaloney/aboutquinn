@@ -22,7 +22,7 @@ h2 { color: #EE816A; padding-left: 132px;}
 h3 { padding-left: 164px; }
 
 p { font-family: 'Oxygen', sans-serif; padding-left: 132px; padding-right: 132px; font-size: 14px;}
-iframe { border:none; padding-bottom: 10px; }
+iframe { border:none; padding-bottom: 63%; }
 
 /* Lists (navbar) */
 ul {
@@ -34,9 +34,9 @@ li {
   color: #FFF;
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 13%;
   margin: 0;
   padding: 20px 18px 10px 18px;
   text-transform: uppercase;
@@ -118,7 +118,7 @@ button {
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
+  font-size: 80%;
   color: white;
   float: right;
   margin-right: 60%;
