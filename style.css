@@ -121,8 +121,9 @@ button {
   font-size: 13px;
   color: white;
   float: right;
-  margin-right: 600px;
-  vertical-align: baseline;
+  margin-right: 650px;
+  vertical-align: sub;
+  padding-bottom: 0px;
 }
 
 .active:after {
