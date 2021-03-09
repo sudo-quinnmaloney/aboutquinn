@@ -120,9 +120,8 @@ button {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 80%;
   color: white;
-  float: none;
+  float: right;
   margin-right: 60%;
-  padding-left: 10%;
 }
 
 .active:after {
