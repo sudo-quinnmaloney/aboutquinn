@@ -50,6 +50,7 @@ li {
   padding: 0 4px;
   padding-left:132px;
   padding-right:132px;
+  vertical-align: middle;
 }
 
 /* Create four equal columns that sits next to each other */
