@@ -114,14 +114,15 @@ li {
 
 button {
   display: inline-block;
+  text-align:center;
 }
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
-  padding-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .active:after {
