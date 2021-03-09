@@ -114,14 +114,13 @@ li {
   font-size: 13px;
   color: white;
   float: left;
-  margin-right: 270px;
+  margin-right: 20px;
 }
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
-  vertical-align: middle;
   float: left;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 /*
