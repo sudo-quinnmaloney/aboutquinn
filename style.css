@@ -110,6 +110,25 @@ li {
   transition: max-height 0.2s ease-out;
 }
 
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  vertical-align: middle;
+}
+
+#background {
+  content: "\2796";
+  overflow: visible;
+}
+
 .sub_heading:hover {
   color: #A0B8D5;
 }
