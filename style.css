@@ -151,13 +151,13 @@ li {
 }
 
 /* Wrapping text around images */
-.floated_left {
+.floated_left, .sub_heading {
   float: left;
   padding-left:132px;
   margin-right:10px;
 }
 
-.floated_right, .sub_heading {
+.floated_right {
   float: right;
   padding-right:132px;
   margin-left:10px;
