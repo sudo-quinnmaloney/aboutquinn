@@ -49,6 +49,9 @@ li {
   flex-wrap: wrap;
   padding: 0 4px;
   text_align: center;
+  margin-left:132px;
+  margin-right:132px;
+  width:100%;
 }
 
 /* Create four equal columns that sits next to each other */
