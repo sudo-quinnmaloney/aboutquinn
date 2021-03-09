@@ -114,20 +114,24 @@ li {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
-  float: right;
-  margin-left: 5px;
+  float: left;
+  margin-left: 10px;
   vertical-align: middle;
 }
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
   vertical-align: middle;
+  float: left;
+  margin-left: 10px;
 }
 
+/*
 #background {
   content: "\2796";
   overflow: visible;
 }
+*/
 
 .sub_heading:hover {
   color: #A0B8D5;
