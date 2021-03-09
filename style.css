@@ -117,17 +117,25 @@ li {
   font-size: 13px;
   color: white;
   float: left;
+  padding-left: 132px;
   margin-right: 20px;
+  vertical-align:middle;
 }
 
 .active:before {
   content: '\02796'; /* Unicode character for "minus" sign (-) */
   float: left;
+  padding-left: 132px;
   margin-right: 20px;
+  vertical-align: middle;
 }
 
 .sub_heading:hover {
   color: #A0B8D5;
+}
+
+.sub_heading{
+  padding-left:0;
 }
 
 .navBtn {text-decoration: none; color:#000000;}
