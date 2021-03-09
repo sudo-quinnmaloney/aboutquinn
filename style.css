@@ -125,12 +125,6 @@ li {
   vertical-align: sub;
 }
 
-
-#background:after {
-  content: "\2796";
-}
-*/
-
 .sub_heading:hover {
   color: #A0B8D5;
 }
