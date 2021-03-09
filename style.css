@@ -112,24 +112,20 @@ li {
   transition: max-height 0.2s ease-out;
 }
 
-.button_wrap {
+button {
   display: inline-block;
-  width: 50%;
 }
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
-  float: right;
-  padding-left: 132px;
+  padding-left: 20px;
   margin-right: 20px;
 }
 
 .active:after {
   content: '\02796'; /* Unicode character for "minus" sign (-) */
-  float: right;
-  margin-right: 20px;
 }
 
 .sub_heading:hover {
