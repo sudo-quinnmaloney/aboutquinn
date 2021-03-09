@@ -106,6 +106,7 @@ li {
   background-color: #EEE;
   max-height: 0;
   overflow: hidden;
+  display: inline-block;
   transition: max-height 0.2s ease-out;
 }
 
@@ -113,7 +114,6 @@ li {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
-  display: inline-block;
   float: left;
   margin-left: 40px;
 }
@@ -121,7 +121,6 @@ li {
 .active:after {
   content: '\02796'; /* Unicode character for "minus" sign (-) */
   float: left;
-  display:inline-block;
   margin-left: 40px;
 }
 
