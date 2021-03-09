@@ -99,7 +99,6 @@ li {
   width: 100%;
   border: none;
   text-align: left;
-  display: inline-block;
   outline: none;
 }
 
@@ -114,6 +113,7 @@ li {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
+  display: inline-block;
   float: left;
   margin-left: 40px;
 }
@@ -121,6 +121,7 @@ li {
 .active:after {
   content: '\02796'; /* Unicode character for "minus" sign (-) */
   float: left;
+  display:inline-block;
   margin-left: 40px;
 }
 
