@@ -99,6 +99,7 @@ li {
   width: 100%;
   border: none;
   text-align: left;
+  vertical-align: super;
   outline: none;
 }
 
@@ -115,14 +116,12 @@ li {
   color: white;
   float: left;
   margin-left: 20px;
-  margin-top: 5px;
 }
 
 .active:after {
   content: '\02796'; /* Unicode character for "minus" sign (-) */
   float: left;
   margin-left: 20px;
-  margin-top: 5px;
 }
 
 .sub_heading:hover {
